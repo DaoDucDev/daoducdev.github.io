@@ -32,12 +32,12 @@ email: daoducdev@gmail.com
 description: "Một chiếc blog về lập trình."
 github:
   username: daoducdev
-# swiftype:
-#   searchId: iXZyPokVfxFaBTvi64Y6
-# gitment:
-#     repo: blog
-#     client_id: a6fb73b3e790e234bab8
-#     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+swiftype:
+  searchId: iXZyPokVfxFaBTvi64Y6
+gitment:
+    repo: blog
+    client_id: a6fb73b3e790e234bab8
+    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
 
 url: "https://daoducdev.github.io/blog"
 imgrepo: "https://daoducdev.github.io/blog/static/img"
