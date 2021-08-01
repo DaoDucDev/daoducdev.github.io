@@ -27,11 +27,11 @@ defaults:
 
 
 
-title: "bit-ranger"
-email: sincerebravefight@gmail.com
-description: ""
+title: "daoducdev's blog"
+email: daoducdev@gmail.com
+description: "Một chiếc blog về lập trình của Đào Đức"
 github:
-  username: bit-ranger
+  username: daoducdev
 swiftype:
   searchId: iXZyPokVfxFaBTvi64Y6
 gitment:
@@ -39,8 +39,8 @@ gitment:
     client_id: a6fb73b3e790e234bab8
     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
 
-url: "https://bit-ranger.github.io/blog"
-imgrepo: "https://bit-ranger.github.io/blog/static/img"
+url: "https://daoducdev.github.io/blog"
+imgrepo: "https://daoducdev.github.io/blog/static/img"
 
 
 #url: "http://127.0.0.1:4000"
