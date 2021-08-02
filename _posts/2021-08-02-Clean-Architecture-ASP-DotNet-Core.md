@@ -11,4 +11,12 @@ Trước khi bắt đầu, hãy nhấn mạnh lý do tại sao việc quan tâm 
 
 > *The primary purpose of architecture is to support the life cycle of the system. Good architecture makes the system easy to understand, easy to develop, easy to maintain, and easy to deploy. The ultimate goal is to minimize the lifetime cost of the system and to maximize programmer productivity.*
 
-> *Mục đích chính của kiến trúc là hỗ trợ vòng đời của hệ thống. Kiến trúc tốt làm cho hệ thống dễ hiểu, dễ phát triển, dễ bảo trì và dễ triển khai. Mục tiêu cuối cùng là giảm thiểu chi phí lâu dài của hệ thống và tối đa hóa năng suất của lập trình viên*
+> *Mục đích chính của kiến trúc là hỗ trợ vòng đời của hệ thống. Kiến trúc tốt làm cho hệ thống dễ hiểu, dễ phát triển, dễ bảo trì và dễ triển khai. Mục tiêu cuối cùng là giảm thiểu chi phí lâu dài của hệ thống và tối đa hóa năng suất của lập trình viên*  
+
+### Cấu trúc Solution.
+
+Đây là cấu trúc solution của Jason Taylor trên trên Visual Studio.  
+Code của ứng dụng và code kiểm thử được phân tách rõ ràng trong hai thư mục tương ứng là **src** và **tests**. Đây là một điều kiện tiên quyết được khuyến khích với mọi dự án: Code ứng dụng và code kiểm thử không được nằm chung một chỗ!  
+
+Phần bên dưới bao gồm cả kiểm thử (test), nhưng chúng tôi chủ yếu tập trung vào 4 project trong thư mục **src**  
+
