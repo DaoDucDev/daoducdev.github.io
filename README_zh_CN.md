@@ -1,8 +1,6 @@
-# 博客地址
+# Địa chỉ blog
 
-<https://bit-ranger.github.io/blog/>
-
-# 必改内容
+<https://daoducdev.github.io/blog/>
 
 ## 1.swiftype
 
