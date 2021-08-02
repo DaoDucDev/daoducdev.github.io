@@ -24,6 +24,13 @@ Phần bên dưới bao gồm cả kiểm thử (test), nhưng chúng tôi chủ
 
 ### Xem xét cấu trúc dưới dạng minh họa phụ thuộc.  
 
-Biểu đồ bên dưới cho biết nhiều hơn so với Visual Studio. Từ biểu đồ này, bạn có thể sử dụng nhiều tính năng để bắt đầu khám phá sâu hơn.  
+Biểu đồ [NDepend dependency graph](https://www.ndepend.com/docs/visual-studio-dependency-graph?_ga=2.79885010.477114683.1627913188-878189054.1627913188) bên dưới cho biết nhiều hơn so với Visual Studio. Từ biểu đồ này, bạn có thể sử dụng nhiều tính năng để bắt đầu khám phá sâu hơn.  
+
+*Chú ý cách biểu thị màu sắc: Màu cam có nghĩa là project được chọn, màu xanh lá cây có nghĩa là lời gọi (caller) của project được chọn và xanh nước biển là được gọi bởi project được chọn*  
+
+![alt](https://blog.ndepend.com/wp-content/uploads/Net-Solution-Structure-Graph.png)  
+
+Bây giờ, chúng ta đã có một sơ đồ rõ ràng về kiến trúc của Solution. Sẽ thật hợp lý khi trình bày các project từ cấp thấp đến cấp cao theo thứ tự sau: *Domain* -> *Application* -> *Infrastructure* và *WebUI*. 
+
 
 
