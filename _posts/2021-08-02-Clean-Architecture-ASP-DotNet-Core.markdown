@@ -48,4 +48,12 @@ Mặt khác, khái niệm Component lại mang tính logic. Một *Component* l�
 
 Chúng ta cần các thành phần này để triển khai một ứng dụng phức tạp: đây là hệ quả trực tiếp từ ý tưởng nổi tiếng của Descarte: Chia để trị - [Discourse of Method’s divide and conquers](https://en.wikipedia.org/wiki/Discourse_on_the_Method)   
 
+Khái niệm Thành phần (component) mang tính chi tiết hơn khái niệm Project, do đó, một project thường chứa một số các component. Cá nhân tôi thích sử dụng một namespace để cấu trúc một project thành các component: *Application.NamespaceA* triển khai component A, *Application.NamespaceB* triển khai component B...   
+
+Nếu có sự phụ thuộc lẫn nhau giữa các component (Component A phụ thuộc vào component B và ngược lại, chẳng hạn), các thành phần này sẽ không còn là các đơn vị riêng biệt nữa: chúng sẽ không thể được phát triển, tái sử dụng, kiểm thử...một cách độc lập. Và vì thế, chúng ta sẽ có một **Siêu thành phần - Super Component**, biến ứng dụng của chúng ta thành một kiến trúc nguyên khối. Trong lập trình, điều này được gọi với bằng một từ mang nghĩa không tốt: **spaghetti code**. Đó chính là lý do vì sao chúng ta cần phân lớp các component (không có sự phụ thuộc lẫn nhau). Nếu bạn sử dụng namespace để gọi các component khi sử dụng, bạn có thể chạy các quy tắc code như Avoid namespace mutually dependent (tránh các namespace phụ thuộc lẫn nhau) để ngăn cái gọi là spaghetti code.   
+
+Do đó, một số đặc điểm chính của một **Clean Architecture** là:
+* Các project được sử dụng nhưng các thành phần vật lý độc lập. Ví dụ, có thể tách phần code core của ứng dụng ASP.NET Core riêng biệt với phần code giúp truy cập vào database.
+* Các component được sử dụng để cấu trúc code thành các đơn vị nhỏ (chia để trị)
+* Không có sự phụ thuộc lẫn nhau giữa các component: chúng phải được phân lớp.   
 
