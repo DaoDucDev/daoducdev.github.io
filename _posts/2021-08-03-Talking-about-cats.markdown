@@ -2,7 +2,7 @@
 layout: post
 title: "Tản mạn về loài mèo"
 date: 2021-08-03
-categories: ["everything"]
+categories: [everything]
 ---
 
 > Thật buồn là chỉ có mèo nhận thức được sự tồn tại của Chúa, còn chó thì không. Chó nghĩ con người là Chúa, nhưng mèo thì không. Mèo biết rằng con người là công cụ thể hiện mong muốn của Chúa. Chúng không phải là kẻ vô ơn, đơn giản là chúng biết kẻ tốt hơn.   
