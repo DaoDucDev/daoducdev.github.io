@@ -34,4 +34,18 @@ Biểu đồ [NDepend dependency graph](https://www.ndepend.com/docs/visual-stud
 Bây giờ, chúng ta đã có một sơ đồ rõ ràng về kiến trúc của Solution. Sẽ thật hợp lý khi trình bày các project từ cấp thấp đến cấp cao theo thứ tự sau: *Domain* -> *Application* -> *Infrastructure* và *WebUI*. 
 
 
+### Project, Component và Kiến trúc Nguyên khối (Monolithic Achitecture)
+
+Có nhiều cách tổ chức cấu trúc của một ứng dụng ASP.NET Core. Ít project không hẳn là xấu, và nhiều project cũng không hẳn là tốt. Cần phải nhớ rằng: mỗi project sẽ được biên dịch thành một file dll, tức là độ chi tiết của mỗi project sẽ mang tính vật lý.  
+
+Mặt khác, khái niệm Component lại mang tính logic. Một *Component* là một nhóm các kiểu có sự gắn kết với nhau (các class/interface/struture/enumerations), hoạt động cùng nhau để đạt được một mục tiêu cụ thể, rõ ràng. Chúng ta sẽ sử dụng các Component để cấu trúc các dự án thành các đơn vị, thành phần nhỏ:  
+
+* Thành phần xử lý (unit of processing)   
+* Thành phần phát triển (unit of development)   
+* Thành phần để tái sử dụng (unit of re-use)   
+* Thành phần kiểm thử (unit of test)   
+* ..........................   
+
+Chúng ta cần các thành phần này để triển khai một ứng dụng phức tạp: đây là hệ quả trực tiếp từ ý tưởng nổi tiếng của Descarte: Chia để trị - [Discourse of Method’s divide and conquers](https://en.wikipedia.org/wiki/Discourse_on_the_Method)   
+
 
