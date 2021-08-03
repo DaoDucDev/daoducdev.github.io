@@ -1,46 +1,29 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MatJek
-description: > # this means to ignore newlines until "baseurl:"
-  Material theme based on <a href="http://materializecss.com">Materialize.css</a> for jekyll sites
-baseurl: "/matjek"
-url: "https://shawnteoh.github.io"
-permalink: /:year/:month/:day/:title
-repository: ShawnTeoh/matjek
-paginate: 5
+title: Daktilo
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-# MatJek specific configurations
-github_profile: "https://github.com/ShawnTeoh"
-user: "John Doe"
-user_email: "john@doe.com"
-contact_url: "https://goo.gl/tVljbV"
-google_tracking_id: "UA-96359860-1"
-google_site_verification: "UA-96359860-1"
-disqus_shortname: "matjek"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+
+author:
+  fullname: Motaquillah Maddane
+  googleplus: https://www.google.com/+MotaquillahMaddane
+  github: kronik3r
+  twitter: electrik_frog
+  # disqus: your_disqus_forum_shortname
+
+# google_analytics: 'UA-XXXXXXXX-X'
+
+# Syntax highlighting
+highlightstyle: ''
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
 
 # Build settings
+highlighter: null
 markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
-sass:
-  style: compressed
-future: true
