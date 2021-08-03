@@ -14,7 +14,7 @@ Trước khi bắt đầu, hãy nhấn mạnh lý do tại sao việc quan tâm 
 
 > *Mục đích chính của kiến trúc là hỗ trợ vòng đời của hệ thống. Kiến trúc tốt làm cho hệ thống dễ hiểu, dễ phát triển, dễ bảo trì và dễ triển khai. Mục tiêu cuối cùng là giảm thiểu chi phí lâu dài của hệ thống và tối đa hóa năng suất của lập trình viên*  
 
-### Cấu trúc Solution.
+## Cấu trúc Solution.
 
 Đây là cấu trúc solution của Jason Taylor trên trên Visual Studio.  
 Code của ứng dụng và code kiểm thử được phân tách rõ ràng trong hai thư mục tương ứng là **src** và **tests**. Đây là một điều kiện tiên quyết được khuyến khích với mọi dự án: Code ứng dụng và code kiểm thử không được nằm chung một chỗ!  
@@ -23,7 +23,7 @@ Phần bên dưới bao gồm cả kiểm thử (test), nhưng chúng tôi chủ
 
 ![alt](https://blog.ndepend.com/wp-content/uploads/Net-Solution-Structure-Explorer.png)  
 
-### Xem xét cấu trúc dưới dạng minh họa phụ thuộc.  
+## Xem xét cấu trúc dưới dạng minh họa phụ thuộc.  
 
 Biểu đồ [NDepend dependency graph](https://www.ndepend.com/docs/visual-studio-dependency-graph?_ga=2.79885010.477114683.1627913188-878189054.1627913188) bên dưới cho biết nhiều hơn so với Visual Studio. Từ biểu đồ này, bạn có thể sử dụng nhiều tính năng để bắt đầu khám phá sâu hơn.  
 
@@ -34,7 +34,7 @@ Biểu đồ [NDepend dependency graph](https://www.ndepend.com/docs/visual-stud
 Bây giờ, chúng ta đã có một sơ đồ rõ ràng về kiến trúc của Solution. Sẽ thật hợp lý khi trình bày các project từ cấp thấp đến cấp cao theo thứ tự sau: *Domain* -> *Application* -> *Infrastructure* và *WebUI*. 
 
 
-### Project, Component và Kiến trúc Nguyên khối (Monolithic Achitecture)
+## Project, Component và Kiến trúc Nguyên khối (Monolithic Achitecture)
 
 Có nhiều cách tổ chức cấu trúc của một ứng dụng ASP.NET Core. Ít project không hẳn là xấu, và nhiều project cũng không hẳn là tốt. Cần phải nhớ rằng: mỗi project sẽ được biên dịch thành một file dll, tức là độ chi tiết của mỗi project sẽ mang tính vật lý.  
 
@@ -57,3 +57,12 @@ Do đó, một số đặc điểm chính của một **Clean Architecture** là
 * Các component được sử dụng để cấu trúc code thành các đơn vị nhỏ (chia để trị)
 * Không có sự phụ thuộc lẫn nhau giữa các component: chúng phải được phân lớp.   
 
+Tôi không chắc liệu Jason có ý định sử dụng namespace để xác định các component của project hay không, nhưng cấu trúc namespace của project gần như được phân lớp hoàn toàn như được thể hiện bằng ma trận dưới đây:  
+![alt](https://blog.ndepend.com/wp-content/uploads/Clean-Architecture-Layered-Components.png)   
+
+*Hình chữ nhật màu đỏ thể hiện một chút vướng víu trong namespace CleanArchitecture.Application.Common và namespace Enties/Event. Hình dưới đây cung cấp một số gợi ý về những việc cần làm để có được một kiến trúc phân lớp hoàn thiện*   
+![alt](https://blog.ndepend.com/wp-content/uploads/Avoid-Namespaces-Mutually-Dependents-Code-Rule.png)   
+
+## Domain   
+
+Như đã nói cụ thể trong trang github của CleanArchitecture, project Domain bao gồm các entity(thực thể), enums, exception, interface, kiểu và code logic cụ thể cho lớp(layer) Domain. Điều này là kết quả của việc áp dụng DDD (Domain Driven Design), rất phổ biến trong cấu trúc phần mềm. 
