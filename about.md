@@ -5,8 +5,9 @@ subtitle: Just who the hell you think I am?
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Mình là Đào Đức, mình là một lập trình viên. Thỉnh thoảng, mình còn đi dạy lập trình.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Ngoài lập trình, mình còn có đam mê khác nữa là nhiếp ảnh.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Các bạn có thể liên lạc với mình qua [Facebook](https://www.facebook.com/DaoDucDev/) hoặc [Youtube](https://www.youtube.com/channel/UCpBqEZMBGJ4D9OdJ7CLBdmw)
+

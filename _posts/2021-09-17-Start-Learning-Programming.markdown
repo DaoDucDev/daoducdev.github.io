@@ -15,3 +15,7 @@ Sinh viên Đại học sẽ "bầm dập" với hàng tá các môn đại cư�
 
 Vì vậy, các bạn mới bắt đầu học lập trình cần chú ý giữ cái đầu lạnh (nhưng trái tim vẫn phải nóng nhé :v ). Hành trình vạn dặm bắt đầu bằng một bước chân, hãy tỉnh táo và bắt đầu từ những điều nhỏ nhặt. Đặt mục tiêu nhỏ, hoàn thành tốt để tạo nền tảng về kiến thức cũng như tâm lý, từ đó dần dần nâng cao mình lên, mỗi ngày!
 
+## 2. Learning by doing - Hãy mạnh dạn thử nghiệm
+
+Mình nhận thấy nhiều bạn, dù đã bắt đầu học lập trình nhưng vẫn chưa thực sự hiểu bản thân, chưa hiểu rõ về nghề. Các bạn chọn đại hoặc vì tác động của gia đình, bạn bè hoặc...nhân viên tư vấn tuyển sinh :v. Điều này, cộng với tâm lý ngại thử cái mới nói chung của học sinh, dẫn đến việc các bạn bị đống kiến thức mới vùi dập tơi tả. Chúng ta, từ khi còn là đứa trẻ, đã học đi bằng cách...ngã nhiều lần, học nói bằng cách bi bô nhại lại vô thức những lời của người lớn dạy... Vậy bây giờ, khi học lập trình, hoặc bất kì một điều gì mới, các bạn hãy mạnh dạn thử, "doing" thật nhiều. Đó chính là cách học tốt nhất!
+
